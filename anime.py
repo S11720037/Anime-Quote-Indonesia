@@ -1,7 +1,7 @@
 import os
 import time
 import random
-import quote 
+import data 
 
 #jeda waktu dalam satuan detik
 jedaWaktu = 30
