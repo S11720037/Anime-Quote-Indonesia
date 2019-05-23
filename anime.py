@@ -20,14 +20,14 @@ def clear():
 def tampilkan():
 
 	#menentukan jumlah index
-	max = (len(quote.quote) - 1)
+	max = (len(data.quote) - 1)
 
 	#menentukan random index
 	randomIndex = random.randint(0,max)
 
 
 	clear()
-	print(quote.quote[randomIndex][0])
+	print(data.quote[randomIndex][0])
 	jeda()
 	clear()
 
