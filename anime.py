@@ -4,7 +4,10 @@ import random
 import quote 
 
 #jeda waktu dalam satuan detik
-def jeda(jedaWaktu):
+jedaWaktu = 30
+
+#jeda waktu dalam satuan detik
+def jeda():
 	time.sleep(jedaWaktu)
 
 
@@ -23,14 +26,14 @@ def tampilkan():
 	randomIndex = random.randint(0,max)
 
 
+	clear()
 	print(quote.quote[randomIndex][0])
-	jeda(1)
-
+	jeda()
 	clear()
 
 
 while True:
-	
+
 	tampilkan()
 
 
